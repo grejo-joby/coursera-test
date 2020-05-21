@@ -1,0 +1,103 @@
+body {
+    font-family: sans-serif;
+}
+p {
+    padding: 2%;
+}
+.heading {
+    padding: auto;
+    text-align: center;
+}
+
+.section-title-1
+{
+    position: relative;
+    top: 0;
+    left: 75%;
+    border: black 1px solid;
+    background-color: aqua;
+    width: 25%;
+    text-align: center;
+}
+
+.section-1
+{
+    border: black 1px solid;
+    background-color: #3f9492;
+    color: black;
+    text-align: center;
+    margin: 1%;
+}
+.section-title-2
+{
+    position: relative;
+    top: 0;
+    left: 75%;
+    border: black 1px solid;
+    background-color: sandybrown;
+    width: 25%;
+    text-align: center;
+}
+
+.section-2
+{
+    border: black 1px solid;
+    background-color: greenyellow;
+    color: black;
+    text-align: center;
+    margin: 1%;
+}
+.section-title-3
+{
+    position: relative;
+    top: 0;
+    left: 75%;
+    border: black 1px solid;
+    background-color: blueviolet;
+    width: 25%;
+    text-align: center;
+}
+
+.section-3
+{
+    border: black 1px solid;
+    background-color: lightcoral;
+    color: black;
+    text-align: center;
+    margin: 1%;
+}
+
+@media screen and (min-width: 992px) {
+    .section-1 {
+        width: 30%;
+        float: left;
+    }
+    .section-2 {
+        width: 30%;
+        float: left;
+    }
+    .section-3 {
+        width: 30%;
+        float: left;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .section-1 {
+        width: 48%;
+        float: left;
+        margin: 0.5%;
+    }
+    .section-2 {
+        width: 48%;
+        float: left;
+        margin: 0.5%;
+    }
+    .section-3 {
+
+        width: 97%;
+        clear: left;
+        margin-left: 0.5%;
+
+    }
+}
