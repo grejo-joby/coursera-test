@@ -1,0 +1,56 @@
+body {
+    background-color: #3aafa1;
+    font-family: 'Chelsea Market', cursive; 
+}
+
+#bs-example-navbar-collapse-1 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#bs-example-navbar-collapse-1 ul li{
+    border: #2c3531 2px solid;
+    background-color: #d3f2f1;
+}
+
+#bs-example-navbar-collapse-1 ul li:hover{
+    background-color: #3aafa9;
+}
+
+#bs-example-navbar-collapse-1 a{
+    color: #2b7a78;
+}
+
+#bs-example-navbar-collapse-1 a:hover{
+    color: #17252a;
+}
+
+
+#mainContent {
+    height: 1000px;
+    background-color: #d3f2f1;
+    margin: 5%;
+    color: #2c3531;
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+#sectionHeader {
+    font-weight: bolder;
+    color: #2b7a78;
+    font-size: 2em;
+    padding: 10px;
+}
+
+.main-heading {
+    color: #feffff;
+    padding: 10px;
+    margin: 10px;
+    font-size: 3em;
+}
+
+#brandName {
+    font-size: 2.5em;
+    padding-bottom: 20px;
+}
+
