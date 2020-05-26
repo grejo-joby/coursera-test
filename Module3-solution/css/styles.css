@@ -27,8 +27,7 @@ body {
 
 
 #mainContent {
-    height: 1000px;
-    background-color: #d3f2f1;
+    
     margin: 5%;
     color: #2c3531;
     margin-top: 0;
@@ -54,3 +53,8 @@ body {
     padding-bottom: 20px;
 }
 
+.subContent {
+    background-color: #d3f2f1;
+    height: 1000px;
+
+}
